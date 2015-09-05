@@ -26,16 +26,19 @@ div.separationBar {
     position: absolute;
     height: 300px;
     transform-origin: 0 50%;
-    transform: rotate(-15deg) skewX(-15deg) skewY(-15deg);
-    width: 100%;
+    transform: rotate(-11deg) skewX(-11deg) skewY(-11deg);
     background-color: black;
     top: 864px;
-    left: 30px;
+    width: 110%;
 }
 
 #home {
-    margin-top: 500px;
+    position: absolute;
+    margin-top: 200px;
     clear: both;
+    height: 800px;
+    width: 100%;
+    text-align: center;
 }
 
 
