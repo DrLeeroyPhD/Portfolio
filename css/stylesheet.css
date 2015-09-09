@@ -54,7 +54,8 @@ nav li {
 }
 
 nav li:hover {
-    color: aquamarine;
+    color: #5bba9a;
+    background-color: #1e1e21;
 }
 
 #home {
