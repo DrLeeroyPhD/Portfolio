@@ -2,15 +2,7 @@
 .angled {
 	transform-origin: 0 50%;
     transform: rotate(-10deg) skewX(-10deg) skewY(-10deg);
-}
-
-div#separationBar {
-    display: block;
-    position: absolute;
-    height: 350px;
-    background-color: black;
-    top: 864px;
-    width: 110%;
+    width: 102%;
 }
 
 #bg-video {
@@ -51,6 +43,7 @@ nav li {
     padding: 30px 0;
     color: #fff;
     font-family: 'Orbitron', sans-serif;
+    border-radius: 5px;
 }
 
 nav li:hover {
@@ -58,21 +51,30 @@ nav li:hover {
     background-color: #1e1e21;
 }
 
+/***** PAGE LAYOUTS *****/
+
 #home {
-    margin-top: 180px;
+    margin-top: 200px;
     clear: both;
-    height: 900px;
+    height: 930px;
     width: 100%;
     text-align: center;
     font-size: 2em;
     font-family: 'Lobster', cursive;
-    color: #9109ce;
+    color: #22f207;
+}
+
+div#separationBar {
+    display: block;
+    position: absolute;
+    height: 350px;
+    background-color: black;
+    top: 900px;
 }
 
 #aboutFill {
 	display: block;
     height: 600px;
-    width: 110%;
     background-color: cadetblue;
     z-index: 3;
     margin-top: 130px;
