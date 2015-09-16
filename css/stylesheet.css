@@ -14,12 +14,15 @@
     height: auto;
     min-height: 100%;
     z-index: -100;
-    background: transparent url(video-bg.jpg) no-repeat;
     background-size: cover;
 }
 
 #about {
     font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #02010d;
 }
 
 /***** NAVIGATION *****/
@@ -74,10 +77,10 @@ div#separationBar {
 
 #aboutFill {
 	display: block;
-    height: 600px;
+    height: 700px;
     background-color: cadetblue;
     z-index: 3;
-    margin-top: 130px;
+    margin-top: 125px;
     padding-top: 10px;
 }
 
@@ -91,4 +94,11 @@ div#separationBar {
     transform-origin: 0 50%;
     transform: rotate(9deg) skewX(9deg) skewY(10.45deg);
 }
+
+#portfolioFill {
+	height: 800px;
+    background-color: black;
+}
+
+
 
