@@ -5,6 +5,11 @@
     width: 102%;
 }
 
+.reverse {
+    transform-origin: 0 50%;
+    transform: rotate(9deg) skewX(9deg) skewY(10.45deg);
+}
+
 #bg-video {
     position: fixed;
     right: 0;
@@ -17,12 +22,9 @@
     background-size: cover;
 }
 
-#about {
-    font-family: 'Orbitron', sans-serif;
-}
-
 body {
     background-color: #02010d;
+    font-family: 'Orbitron', sans-serif;
 }
 
 /***** NAVIGATION *****/
@@ -45,7 +47,6 @@ nav li {
     margin-left: -5px;
     padding: 30px 0;
     color: #fff;
-    font-family: 'Orbitron', sans-serif;
     border-radius: 5px;
 }
 
@@ -89,16 +90,17 @@ div#separationBar {
     text-align: center;
     width: 60%;
     margin: auto;
-    margin-top: -40px;
-    z-index: 2; 
-    transform-origin: 0 50%;
-    transform: rotate(9deg) skewX(9deg) skewY(10.45deg);
+    z-index: 2;
+    margin-top: 50px;
 }
 
 #portfolioFill {
-	height: 800px;
+    padding-top: 10px;
+	height: 2000px;
     background-color: black;
 }
 
-
+#portfolio {
+	top: 50px;
+}
 
