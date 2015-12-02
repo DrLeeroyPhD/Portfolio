@@ -27,6 +27,19 @@ body {
     font-family: 'Orbitron', sans-serif;
 }
 
+.image {
+    width: 360px;
+    height: 200px;
+}
+
+div#separationBar {
+    display: block;
+    position: absolute;
+    height: 350px;
+    background-color: black;
+    top: 900px;
+}
+
 /***** NAVIGATION *****/
 
 nav {
@@ -57,6 +70,7 @@ nav li:hover {
 
 /***** PAGE LAYOUTS *****/
 
+/** HOME **/
 #home {
     margin-top: 200px;
     clear: both;
@@ -64,18 +78,18 @@ nav li:hover {
     width: 100%;
     text-align: center;
     font-size: 2em;
-    font-family: 'Lobster', cursive;
-    color: #22f207;
+/*    font-family: 'Lobster', cursive;*/
+    color: #5bba9a;
 }
 
-div#separationBar {
-    display: block;
-    position: absolute;
-    height: 350px;
-    background-color: black;
-    top: 900px;
+#home h1 {
+    text-shadow: 2px 3px 1px #ccd3d4;
+}
+#home h3 {
+    text-shadow: 1.5px 1.5px 1px #ccd3d4;
 }
 
+/** ABOUT **/
 #aboutFill {
 	display: block;
     height: 700px;
@@ -94,6 +108,7 @@ div#separationBar {
     margin-top: 50px;
 }
 
+/** PORTFOLIO **/
 #portfolioFill {
     padding-top: 10px;
 	height: 2000px;
@@ -104,3 +119,8 @@ div#separationBar {
 	top: 50px;
 }
 
+#portfolio h1 {
+    font-size: 4em;
+    color: #bf3106;
+    text-align: center;
+}
