@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     </head>
     
     
@@ -51,23 +52,22 @@
         <div id="portfolioFill" class="angled">
             <div id="portfolio" class="reverse">
                <h1>PORFOLIO</h1>
-                <ul>
-                    <li>
-                        <img src="img/home_full.png" class="image">
-                    </li>
-                    <li>
-                        <img src="img/services_full.png" class="image">
-                    </li>
-                    <li>
-                        <img src="img/about_full.png" class="image">
-                    </li>
-                </ul>
+               
+                <a class="fancybox" rel="group" href="img/home_full.png"><img src="img/home_small.png" alt="Home Page" /></a>
+                <a class="fancybox" rel="group" href="img/about_full.png"><img src="img/about_small.png" alt="About Page" /></a>
+                
             </div>
         </div>
         
         <div id="contact"></div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
         <script src="js/script.js"></script>
     </body>
     
