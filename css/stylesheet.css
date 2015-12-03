@@ -136,7 +136,7 @@ nav li:hover {
 /* 128 x 128 */
 
 #contact {
-    height: 50px;
+    height: 150px;
     background-color: #1e1e21;
 }
 
@@ -150,7 +150,6 @@ nav li:hover {
     margin-top: 10px;
 }
 
-.soc {
-    width: 128px;
-    height: 128px;
+#contactLeft {
+	margin-top: 10px;
 }
