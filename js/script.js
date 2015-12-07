@@ -2,8 +2,8 @@
 $("nav ul a").click(function(){
     var jump = "#" + $(this).attr("name");
     $('html, body').animate({
-        scrollTop: $(jump).offset().top
-    }, 500);
+        scrollTop: $(jump).offset().top - 120
+    }, 600);
 });
 
 /* Social Icon Rollover function */

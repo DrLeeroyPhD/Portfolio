@@ -50,9 +50,15 @@
         
         <div id="portfolioFill" class="angled">
             <div id="portfolio" class="reverse">
-               <h1>PORTFOLIO</h1>
-                <a class="fancybox" rel="group" href="img/home_full.png"><img src="img/home_small.png" alt="Home Page" /></a>
-                <a class="fancybox" rel="group" href="img/about_full.png"><img src="img/about_small.png" alt="About Page" /></a>
+                <h1>PORTFOLIO</h1>
+                
+<!-- Created galleryContainer to separate the h1 from the flexbox display style -->
+                    <div id="galleryContainer">
+                    <div class="gallery">
+                        <a class="fancybox" rel="group" href="img/home_full.png"><img src="img/home_small.png" alt="Home Page" /></a></div>
+                    <div class="gallery">
+                        <a class="fancybox" rel="group" href="img/about_full.png"><img src="img/about_small.png" alt="About Page" /></a></div>
+                </div>
             </div>
         </div>
         
@@ -60,11 +66,15 @@
         
         <div id="contact">
             <div id="contactLeft">
-                <img src="img/soc/in.png" name="in">
-                <img src="img/soc/gplus.png" name="gplus">
-                <img src="img/soc/git.png" name="git">
+                <a href="www.linkedin.com/in/dennyjchristopher">
+                    <img src="img/soc/in.png" name="in"></a>
+                <a href="https://plus.google.com/u/0/+ChristopherDenny42/about/p/pub">
+                    <img src="img/soc/gplus.png" name="gplus"></a>
+                <a href="https://github.com/DrLeeroyPhD">
+                    <img src="img/soc/git.png" name="git"></a>
+                <a href="mailto:dennyjchristopher.com">
+                    <img src="img/soc/email.png" name="email"></a>
             </div>
-            <div id="contactRight">DennyJChristopher@gmail.com</div>
         </div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
