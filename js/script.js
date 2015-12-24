@@ -7,10 +7,10 @@ $("nav ul a").click(function(){
 });
 
 /* Social Icon Rollover function */
-$("#contactLeft img").hover(function() {
-    var achName = $(this).attr("name");
-    $(this).attr("src", "img/soc/" + achName + "_hover.png");
-			}, function() {
-    var achName = $(this).attr("name");
-    $(this).attr("src", "img/soc/" + achName + ".png");
-});
+//$("#contactLeft img").hover(function() {
+//    var achName = $(this).attr("name");
+//    $(this).attr("src", "img/soc/" + achName + "_hover.png");
+//			}, function() {
+//    var achName = $(this).attr("name");
+//    $(this).attr("src", "img/soc/" + achName + ".png");
+//});

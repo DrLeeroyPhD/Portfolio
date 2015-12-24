@@ -172,3 +172,11 @@ nav li:hover {
 #contactLeft img {
 	margin-left: 30px;
 }
+
+#contactLeft a img:hover {
+    -moz-filter: invert(100%) blur(1px);
+    -webkit-filter: invert(100%) blur(1px);
+    -o-filter: invert(100%) blur(1px);
+    -ms-filter: invert(100%) blur(1px);
+    filter: invert(100%) blur(1px);
+}
