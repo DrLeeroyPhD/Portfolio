@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
         <!-- SEO -->
         <title>Christopher Denny</title>
         <link rel="icon" type="image/png" href="img/icon.png">
         <meta name="description" content="Portfolio Website of Christopher Denny, a Front-End Web and Full-Stack Javascript Developer." />
-        <meta name="robots" content="index,follow" />
-        <meta name="keywords" content="Christopher, John, Denny, web, develop, developer, develops, front, end, frontend, front-end, junior, javascript, java, script, programmer, internet, apps, app, jquery, ajax, css, html, css3, html5, node, nodejs, js, php, json, terminal, posix, gulp, cms, full-stack, full, stack, wordpress, framework, frameworks, drupal" />
-        <link rel=”author” href=”https://plus.google.com/+ChristopherDenny42“/>
+<!-- <meta name="robots" content="index, follow" /> -->
+        <meta name="keywords" content="Christopher, John, Denny, web, develop, developer, develops, front, end, frontend, front-end, junior, javascript, java, script, programmer, internet, apps, app, jquery, ajax, css, html, css3, html5, node, nodejs, js, php, json, terminal, posix, gulp, cms, full-stack, full, stack, wordpress, framework, frameworks, drupal">
         
         <!-- FONT -->
         <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
@@ -21,6 +22,7 @@
     
     
     <body>
+       <!-- "a" parent of "li" to ensure whole element clickable -->
         <nav>
             <ul>
                 <a name="home"><li>Home</li></a>
@@ -31,7 +33,7 @@
         </nav>
         
         <div id="home">
-            <video id="bg-video" autoplay="true" loop="true" poster"bg-vid-img.jgp">
+            <video id="bg-video" autoplay loop poster="bg-vid-img.jgp">
                 <source src="img/Background_08.webm" type="video/ogg">
             </video>
             <h1>Christopher Denny</h1>
@@ -43,8 +45,9 @@
         <div id="aboutFill" class="angled">
             <div id="about" class="reverse">
                 <h2>A Little About Myself...</h2>
-                <p>Bacon ipsum dolor amet shoulder porchetta biltong brisket rump, ribeye pork ball tip meatloaf. Boudin pork belly jerky ball tip. Turkey salami tri-tip sirloin cupim venison ham porchetta leberkas bacon. Beef ribs swine sausage capicola tenderloin kevin bacon jowl boudin picanha turkey. Doner pig landjaeger brisket cupim t-bone ham short ribs ham hock beef ribs pork belly. Doner rump tri-tip salami landjaeger bresaola, leberkas short loin sirloin pork belly.</p>
-<p>Salami corned beef strip steak, pancetta kevin pastrami spare ribs cupim. Frankfurter cupim ham ball tip venison corned beef hamburger, flank short loin tri-tip jerky pancetta cow shoulder. Tenderloin pancetta landjaeger ham hock turducken kevin shank flank. Kielbasa chuck hamburger pork, ground round filet mignon sausage ham hock swine bresaola corned beef jerky meatball flank turducken. Pork belly shoulder t-bone drumstick, kevin turducken salami short loin pork loin spare ribs. Shank shoulder chuck frankfurter biltong.</p>
+                <p>
+                Welcome to my humble abode. Christopher Denny's the name! This - my portfolio website - is nearing completion, I'm proud to say, however, I do still have a couple matters to tend to before it's totally complete. Please enjoy your stay, and while I finish things up around here, enjoy some delicious bacon ipsum!</p><p>
+                Bacon ipsum dolor amet shoulder porchetta biltong brisket rump, ribeye pork ball tip meatloaf. Boudin pork belly jerky ball tip. Turkey salami tri-tip sirloin cupim venison ham porchetta leberkas bacon. Beef ribs swine sausage capicola tenderloin kevin bacon jowl boudin picanha turkey. Doner pig landjaeger brisket cupim t-bone ham short ribs ham hock beef ribs pork belly. Doner rump tri-tip salami landjaeger bresaola, leberkas short loin sirloin pork belly.</p>
             </div>
         </div>
         
@@ -66,24 +69,31 @@
         
         <div id="contact">
             <div id="contactLeft">
+               <!-- LinkedIn -->
                 <a href="http://www.linkedin.com/in/dennyjchristopher">
-                    <img src="img/soc/in.png" name="in"></a>
-                <a href="https://plus.google.com/u/0/+ChristopherDenny42/about/p/pub">
-                    <img src="img/soc/gplus.png" name="gplus"></a>
+                    <img src="img/soc/in.png" name="in" alt="link to LinkedIn page"></a>
+                <!-- Google+ -->
+                <a rel="me" href="https://plus.google.com/u/0/+ChristopherDenny42/about/p/pub">
+                    <img src="img/soc/gplus.png" name="gplus" alt="link to Google Plus page"></a>
+                <!-- GitHub -->
                 <a href="https://github.com/DrLeeroyPhD">
-                    <img src="img/soc/git.png" name="git"></a>
+                    <img src="img/soc/git.png" name="git" alt="link to GitHub account"></a>
+                <!-- Email -->
                 <a href="mailto:dennyjchristopher.com">
-                    <img src="img/soc/email.png" name="email"></a>
+                    <img src="img/soc/email.png" name="email" alt="link to email Christopher"></a>
             </div>
         </div>
         
+        <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <!-- Fancybox Plugin -->
         <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
         <script type="text/javascript">
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
 </script>
+       <!-- Scripts -->
         <script src="js/script.js"></script>
     </body>
     
