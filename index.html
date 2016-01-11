@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.min.css">
     </head>
     
     
@@ -63,9 +63,10 @@
 <!-- Created galleryContainer to separate the h1 from the flexbox display style -->
                     <div id="galleryContainer">
                     <div class="gallery">
-                        <a class="fancybox" rel="group" href="img/home_full.png"><img src="img/home_small.png" alt="Home Page" /></a></div>
+                        <a href="img/home_full.png" data-lightbox="churchWebsite" data-title="Church Website"><img src="img/home_small.png" alt="Church Home Page"></a></div>
+                        
                     <div class="gallery">
-                        <a class="fancybox" rel="group" href="img/about_full.png"><img src="img/about_small.png" alt="About Page" /></a></div>
+                        <a href="img/calendar_full.png" data-lightbox="calendar_full" data-title="Fully Functioning Calendar"><img src="img/calendar_small.png" alt="Fully Functioning Calendar Page"></a></div>
                 </div>
             </div>
         </div>
@@ -91,13 +92,8 @@
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <!-- Fancybox Plugin -->
-        <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-        <script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
-</script>
+        <!-- lightbox Plugin -->
+        <script src="lightbox2-master/dist/js/lightbox.min.js"></script>
        <!-- Scripts -->
         <script src="js/script.js"></script>
     </body>
