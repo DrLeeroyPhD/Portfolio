@@ -121,6 +121,7 @@ nav li:hover {
     padding-top: 10px;
 	height: 1200px;
     background-color: black;
+    margin-bottom: 10px;
 }
 
 #portfolio {
