@@ -40,13 +40,6 @@ div#separationBar {
     top: 900px;
 }
 
-.closer {
-    padding-top: 300px;
-    height: 310px;
-    background-color: black;
-    margin-top: -300px;
-}
-
 /***** NAVIGATION *****/
 
 nav {
