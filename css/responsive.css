@@ -2,3 +2,16 @@
     #portfolio h1{font-size: 3em;}
     #home{font-size: 1.3em;}
 }
+
+
+@media only screen and (min-width : 580px){
+    .angled {
+        transform-origin: 0 50%;
+        transform: rotate(-10deg) skewX(-10deg) skewY(-10deg);
+        width: 102%;
+    }
+    .reverse {
+        transform-origin: 0 50%;
+        transform: rotate(9deg) skewX(9deg) skewY(10.45deg);
+    }
+}

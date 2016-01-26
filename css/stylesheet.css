@@ -1,4 +1,5 @@
 /***** UNIVERSAL *****/
+/*
 .angled {
 	transform-origin: 0 50%;
     transform: rotate(-10deg) skewX(-10deg) skewY(-10deg);
@@ -9,6 +10,7 @@
     transform-origin: 0 50%;
     transform: rotate(9deg) skewX(9deg) skewY(10.45deg);
 }
+*/
 
 #bg-video {
     position: fixed;
@@ -79,7 +81,6 @@ nav li:hover {
     width: 100%;
     text-align: center;
     font-size: 2em;
-/*    font-family: 'Lobster', cursive;*/
     color: #5bba9a;
 }
 
@@ -92,7 +93,7 @@ nav li:hover {
 
 /** ABOUT **/
 #aboutFill {
-	display: block;
+	display:inherit;
     height: 900px;
     background-color: cadetblue;
     z-index: 3;
