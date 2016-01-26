@@ -2,7 +2,7 @@
 $("nav ul a").click(function(){
     var jump = "#" + $(this).attr("name");
     $('html, body').animate({
-        scrollTop: $(jump).offset().top - 120
+        scrollTop: $(jump).offset().top - 200
     }, 600);
 });
 
