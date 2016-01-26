@@ -129,6 +129,8 @@ nav li:hover {
 
 #galleryContainer {
 	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .gallery {
@@ -139,6 +141,8 @@ nav li:hover {
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
+    flex-shrink: auto;
 }
 
 .gallery img {
