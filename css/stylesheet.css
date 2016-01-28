@@ -160,7 +160,7 @@ nav li:hover {
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #1e1e21;
-    padding: 5px;
+    padding: 10px;
 }
 
 #contactIc a img:hover {
