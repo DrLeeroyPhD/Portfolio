@@ -1,7 +1,6 @@
 @media only screen and (max-width : 750px){
     #portfolio h1{font-size: 3em;}
     #home{font-size: 1.3em;}
-    #contactIc {margin-top: -10px;}
 }
 
 
@@ -16,4 +15,9 @@
         transform: rotate(9deg) skewX(9deg) skewY(10.45deg);
     }
     #home {height: 930px;}
+}
+
+
+@media only screen and (max-width: 580px){
+    #portfolioFill {margin-bottom: -10px;}
 }
