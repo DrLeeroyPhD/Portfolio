@@ -1,16 +1,6 @@
 /***** UNIVERSAL *****/
-/*
-.angled {
-	transform-origin: 0 50%;
-    transform: rotate(-10deg) skewX(-10deg) skewY(-10deg);
-    width: 102%;
-}
 
-.reverse {
-    transform-origin: 0 50%;
-    transform: rotate(9deg) skewX(9deg) skewY(10.45deg);
-}
-*/
+/** .angled and .reverse are in responsive.css **/
 
 #bg-video {
     position: fixed;
@@ -156,24 +146,28 @@ nav li:hover {
 }
 
 /** CONTACT **/
-/* 128 x 128 */
 
+/*
 #contact {
     height: 160px;
     background-color: #1e1e21;
     width: 100;
 }
+*/
 
 #contactIc{
-    margin-top: 20px;
+    margin-top: -10px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #1e1e21;
+    padding: 5px;
 }
 
 #contactIc a img:hover {
-    -moz-filter: invert(100%) blur(1px);
-    -webkit-filter: invert(100%) blur(1px);
-    -o-filter: invert(100%) blur(1px);
-    -ms-filter: invert(100%) blur(1px);
-    filter: invert(100%) blur(1px);
+    -moz-filter: invert(100%) blur(1.5px);
+    -webkit-filter: invert(100%) blur(1.5px);
+    -o-filter: invert(100%) blur(1.5px);
+    -ms-filter: invert(100%) blur(1.5px);
+    filter: invert(100%) blur(1.5px);
 }
