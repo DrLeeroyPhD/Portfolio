@@ -1,0 +1,112 @@
+<h1 id="lightbox2">Lightbox2</h1>
+<p>The original lightbox script. Eight years later — still going strong!</p>
+<p>Lightbox is small javascript library used to overlay images on top of the current page. It&#39;s a snap to setup and works on all modern browsers.</p>
+<p>For demos and usage instructions, visit <a href="http://lokeshdhakar.com/projects/lightbox2/">lokeshdhakar.com/projects/lightbox2/</a>.</p>
+<p>by <a href="http://www.lokeshdhakar.com">Lokesh Dhakar</a></p>
+<h2 id="roadmap">Roadmap</h2>
+<h3 id="actively-being-worked-on">Actively being worked on</h3>
+<ul>
+<li><strong>Maintenance.</strong> Get open Issues and PRs number down.</li>
+</ul>
+<h3 id="not-on-the-roadmap">Not on the roadmap</h3>
+<ul>
+<li><strong>HTML or video content.</strong> The goal of the script from the start has been to provide a better image viewing experience and I am planning on staying focused on that vision. Don&#39;t worry though there are plenty of alternative scripts a google away for those who need HTML or video content support.</li>
+</ul>
+<h3 id="v3-0-in-brainstorming-phase">v3.0 - In Brainstorming Phase</h3>
+<ul>
+<li>Add touch gesture support.</li>
+<li>Rewrite animations for performance and flexibility.</li>
+<li>Optimize layout for mobile.</li>
+<li>Optimize layout for screens of varying densities.</li>
+<li>Use inline SVG for UI elements.</li>
+<li>Do not initialize automatically and allow multiple instances.</li>
+<li>Add event handlers.</li>
+<li>Allow the setting of options from HTML.</li>
+<li>Allow instantiation with jQuery plugin syntax.</li>
+<li>If one of the two options, maxWidth or maxHeight, is set, maintain aspect ratio.</li>
+<li>Evaluate start, end, and transition animations.</li>
+<li>Evaluate preloading and caching.</li>
+<li>Evaluate droppping jQuery requirement.</li>
+<li>If user attempts to go forward when at end of image set, animation (shake?) indicating the end or option to close Lightbox.</li>
+</ul>
+<h2 id="changelog">Changelog</h2>
+<h3 id="v2-8-2-2015-12-13">v2.8.2 - 2015-12-13</h3>
+<ul>
+<li>[Add] npm support. <code>npm install --save lightbox2</code></li>
+<li>[Add] Add option to disable vertical scrolling <a href="https://github.com/lokesh/lightbox2/pull/487">#487</a> Thanks <a href="https://github.com/blacksunshineCoding">blacksunshineCoding</a></li>
+<li>[Fix] When horizontal scrolling is on page the overlay is not covering entire page <a href="https://github.com/lokesh/lightbox2/pull/485">#485</a> Thanks <a href="https://github.com/manuel-io">@manuel-io</a></li>
+<li>[Change] Add css minify task to Gruntfile.js and removedlegacy css vendor prefixes for border-radius. <a href="https://github.com/lokesh/lightbox2/pull/470">#470</a> Thanks <a href="https://github.com/ajerez">ajerez</a></li>
+</ul>
+<h3 id="v2-8-1-2015-07-09">v2.8.1 - 2015-07-09</h3>
+<ul>
+<li>[Fix] Change AMD jQuery require statement to use all lowercase. <a href="https://github.com/lokesh/lightbox2/pull/464">#464</a> Thanks <a href="https://github.com/vtforester">@vtforester</a></li>
+</ul>
+<h3 id="v2-8-0-2015-06-29">v2.8.0 - 2015-06-29</h3>
+<ul>
+<li>[Add] UMD support (AMD, CommonJS, fallback to global export).<a href="https://github.com/lokesh/lightbox2/pull/461">#461</a></li>
+<li>[Add] option method for setting options. <a href="https://github.com/lokesh/lightbox2/commit/d708fbd716aaa90e01ba4198944c8955e7283d87">#461</a></li>
+<li>[Add] CONTRIBUTING.md</li>
+</ul>
+<h3 id="v2-7-4-2015-06-23">v2.7.4 - 2015-06-23</h3>
+<ul>
+<li>[Change] Revert jquery dep version to 2.x from 1.x. Added note to Lightbox page about using jQuery 1.x to get IE6, 7, and 8 support.</li>
+<li>[Fix] Preserve author and license comments from lightbox.js in minified files.</li>
+</ul>
+<h3 id="v2-7-3-2015-06-22">v2.7.3 - 2015-06-22</h3>
+<ul>
+<li>[Add] Barebone HTML file with examples /examples/index.html.</li>
+<li>[Add] jquery.lightbox.js which concatenates jQuery and Lightbox. This is for those who are Bower averse or want an extra easy install.</li>
+</ul>
+<h3 id="v2-7-2-2015-06-16">v2.7.2 - 2015-06-16</h3>
+<ul>
+<li>[Add] maxWidth and maxHeight options added <a href="https://github.com/lokesh/lightbox2/pull/197">#197</a></li>
+<li>[Add] Enable target attribute in caption links <a href="https://github.com/lokesh/lightbox2/pull/299">#299</a></li>
+<li>[Change] Switched to The MIT License from  Creative Commons Attribution 4.0 International License.</li>
+<li>[Change] Add CSS and images to bower.json main property.</li>
+<li>[Change] Dropped version property from bower.json. <a href="https://github.com/lokesh/lightbox2/pull/453">#453</a></li>
+<li>[Change] Use src -&gt; dist folder structure for build.</li>
+<li>[Fix] Remove empty src attribute from img tag <a href="https://github.com/lokesh/lightbox2/pull/287">#287</a></li>
+<li>[Fix] Correct grammatical error in comment <a href="https://github.com/lokesh/lightbox2/pull/224">#224</a></li>
+<li>[Fix] Clear the jquery animation queue before hiding the .lb-loader <a href="https://github.com/lokesh/lightbox2/pull/309">#309</a></li>
+<li>[Remove] Remove releases&#39;s zips from repo.</li>
+</ul>
+<h3 id="v2-7-1-2014-03-30">v2.7.1 - 2014-03-30</h3>
+<ul>
+<li>[Fix] Enable links in captions</li>
+</ul>
+<h3 id="v2-7-0-2014-03-29">v2.7.0 - 2014-03-29</h3>
+<ul>
+<li>[Add] Support for data-title attribute for the caption.  - Thanks <a href="https://github.com/copycut">@copycut</a></li>
+<li>[Add] New option to enable always visible prev and next arrows</li>
+<li>[Change] Rewrite Coffeescript code into plain ole Javascript</li>
+<li>[Change] Updated jQuery to v1.10.2</li>
+<li>[Fix] prev/next arrows not appearing in IE9 and IE 10 - Thanks <a href="https://github.com/rebizu">@rebizu</a></li>
+<li>[Fix]  Support wrap around option w/keyboard actions. Thanks <a href="https://github.com/vovayatsyuk">@vovayatsyuk</a></li>
+</ul>
+<h3 id="v2-6-0-2013-07-06">v2.6.0 - 2013-07-06</h3>
+<ul>
+<li>[Add] Added wraparound option</li>
+<li>[Add] Added fitImagesInViewport option - now mobile friendly</li>
+<li>[Add] Added showImageNumber label</li>
+<li>[Add] Compatibility with html5shiv</li>
+<li>[Add] Html5 valid using new data-lightbox attribute</li>
+<li>[Add] Compatibility with hmtl5shiv and modernizr</li>
+<li>[Add] Support jquery 1.9+</li>
+<li>[Change] Move reference to loading and close images into css</li>
+<li>[Change] Cache jquery objects</li>
+</ul>
+<h3 id="v2-5-0-2012-04-11">v2.5.0 - 2012-04-11</h3>
+<ul>
+<li>[Change] Switch to jQuery from Prototype and Scriptaculous</li>
+<li>[Change] Switch from Javacript to Coffeescript</li>
+<li>[Change] Switch from CSS to SASS</li>
+<li>[Add] Repo created on Github</li>
+</ul>
+<h2 id="how-to-deploy">How to deploy</h2>
+<ul>
+<li>Update version number in <code>src/lightbox.js</code></li>
+<li>Update README.md Changelog with release date</li>
+<li>grunt build</li>
+<li>Push to Github repo</li>
+<li>Create a new Github release along with tag. Naming convention for both <code>v2.8.1</code></li>
+</ul>
