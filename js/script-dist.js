@@ -1,1 +1,1 @@
-$("nav ul a").click(function(){var t="#"+$(this).attr("name");$("html, body").animate({scrollTop:$(t).offset().top-200},600)});
+$("nav ul a").click(function(){var a="#"+$(this).attr("name");$("html, body").animate({scrollTop:$(a).offset().top-200},600)});var $overlay=$('<div id="overlay"></div>'),$image=$("<img>");$overlay.append($image),$("body").append($overlay),$overlay.fadeOut(),$("#gallery a").click(function(a){a.preventDefault();var e=$(this).attr("href");$image.attr("src",e),$overlay.fadeIn(400)}),$overlay.click(function(){$overlay.fadeOut(400)});
