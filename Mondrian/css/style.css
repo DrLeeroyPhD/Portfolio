@@ -1,0 +1,148 @@
+/** GLOBALS **/
+body{
+  background-color: #9f9ea7;
+}
+
+.mainContain{
+  width: 800px;
+  height: 600px;
+  background-color: #99c9c9;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  border: 3px outset #98b5b5;
+}
+
+h1{
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+h1, button{
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+}
+
+/** COLORS **/
+.tools{
+  width: 100%;
+}
+
+.color{
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 10px;
+  border: 5px solid black;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px black;
+  transition: box-shadow .25s;
+}
+
+.color:hover{
+  box-shadow: 4px 6px 10px black;
+  transition: box-shadow .25s;
+}
+
+.color:first-child{
+  margin-left: 20px;
+}
+
+
+/** COLOR VIEWER **/
+#viewer{
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 40px;
+  box-shadow: 0 0 10px black;
+}
+
+
+/** MONDRIAN **/
+.mondrian{
+  width: 750px;
+  height: 400px;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.row:not(:first-child){
+  margin-top: -10px;
+}
+
+.box{
+  width: 190px;
+  background-color: white;
+  display: inline-block;
+  border: 5px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.box:not(:first-child){
+  margin-left: -10px;
+}
+
+
+/** ROW SIZING **/
+#row1 .box{
+  height: 90px;
+}
+
+#row2 .box{
+  height: 150px;
+}
+
+#row3 .box{
+  height: 50px;
+}
+
+#row4 .box{
+  height: 130px;
+}
+
+
+/** COLUMN SIZING **/
+.column1{
+  width: 165px;
+}
+
+.column2{
+  width: 220px;
+}
+
+.column3{
+  width: 80px;
+}
+
+.column4{
+  width: 300px;
+}
+
+
+/** RESET BUTTON **/
+#reset{
+  margin: 10px 45%;
+  text-align: center;
+  background-color: darkred;
+  color: aliceblue;
+  border: 2px solid #580202;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px darkred;
+  transition: box-shadow .25s;
+}
+
+#reset:hover{
+  box-shadow: 3px 3px 3px #360505;
+  transition: box-shadow .25s;
+}

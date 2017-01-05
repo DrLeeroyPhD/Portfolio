@@ -36,6 +36,12 @@ for (i=0; i< btn.length; i++) {
             $('.inner-content').html("<div id='carousel'><ul><li><img src='img/Sidekicks1.png'></li><li><img src='img/Sidekicks2.png'></li><li><img src='img/Sidekicks3.png'></li></ul></div><p>This project was my first time working with a Wordpress bare bones framework to build the website that I intended. This project also challenged me to work in a music player and Calendar as well as making the User Interface for the band members who would be signing in nice and easy to use.</p><a href='http://www.singalongsidekicks.com/' target='_blank'><button>Check it Out!</button></a>")
         }
         
+        // MONDRIAN
+        else if(disp === "mondrian"){
+            $('.inner-content').html("<div id='carousel'><ul><li><img src='img/mondrian1.png'></li><li><img src='img/mondrian2.png'></li><li><img src='img/mondrian3.png'></li></ul></div><p>Inspired by Jennifer Dewalt's <a href='https://jenniferdewalt.com/' target='_blank'>180 Websites in 180 Days</a>, I set out on an adventure to explore Javascript and Web Development in a way I hadn't before. The Mondrian is the first project I'd decided to take on, paving the way for a beautiful future of ... random little projects.</p><a href='http://www.sweetwebsitebro.com/Mondrian/' target='_blank'><button>Check it Out!</button></a>")
+        }
+      
+      
         // RANDOM
         else if(disp === "random"){
             $('.inner-content').html("<div id='carousel'><ul><li><img src='img/random1.png'></li><li><img src='img/random2.png'></li><li><img src='img/random3.png'></li></ul></div><p>The fastest way to learn code is to dive deep and make something with it, right? I'd spent plenty of time watching videos and taking quizzes, but had never truly built anything with Javascript. This project was inspired by the desire to actually make something out of Javascript - and without the help of jQuery!</p><a href='http://www.sweetwebsitebro.com/random' target='_blank'><button>Check it Out!</button></a>")
