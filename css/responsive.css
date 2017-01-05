@@ -34,6 +34,114 @@
 
 
 @media only screen and (max-width: 450px){
-    nav li{padding: 10px; width: 23%;}
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav li{
+        
+    }
     #portfolio h1{font-size: 2em;}
+}
+
+
+@media only screen and (max-width: 1440px){
+    .inner-content p{
+        display: block;
+        float: none;
+        text-align: center;
+        margin: auto;
+        clear: both;
+    }
+    
+    #carousel{
+        float: none;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    .inner-content button{
+        display: block;
+        margin:auto;
+        margin-top: 10px;
+        float: none;
+        text-align: center;
+    }
+    
+    *{text-decoration: none;}
+}
+
+@media only screen and (max-width: 550px){
+    #gallery img{
+        width: 240px;
+        height: 133.33px
+    }
+    
+    #gallery ul{
+        justify-content: center;
+    }
+    
+    #carousel {
+        width: 240px;
+        height: 133.33px;
+    }
+
+    #carousel ul {
+        width: 720px;
+    }
+
+    #carousel ul li {
+        width:240px;
+    }
+    
+    #carousel img {
+        width: 240px;
+        height: 133.33px
+    }
+    
+    .inner-content p{
+        width: 99%;
+        padding: 0;
+    }
+    
+    nav li {
+        width: 24%;
+        text-align: center;
+        display: inline-block;
+        margin-left: -16px;
+        padding: 20px 0;
+        font-size: .8em;
+    }
+    
+}
+
+@media only screen and (max-width: 410px){
+    #gallery img{
+        width: 120px;
+        height: 66.66px;
+        margin: 5px;
+    }
+    
+    #carousel {
+        width: 120px;
+        height: 66.66px
+    }
+
+    #carousel ul {
+        width: 360px;
+    }
+
+    #carousel ul li {
+        width: 120px;
+    }
+    
+    #carousel img {
+        width: 120px;
+        height: 66.66px
+    }
+    
+    .inner-content p{
+        font-size: .8em;
+    }
+    
 }

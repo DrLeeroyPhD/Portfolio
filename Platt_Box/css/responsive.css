@@ -1,0 +1,32 @@
+@media screen and (max-width: 1000px) {
+  #head input {
+    display: none;
+  }
+  #head form {
+    background-color: #017f40;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #head #mobileMenu {
+    display: inline-block;
+  }
+  #sidebar {
+    position: absolute;
+    margin-right: -800px;
+    display: none;
+    background-color: #fff;
+    width: 90%;
+  }
+  #sidebar li {
+    transition: box-shadow 1s;
+    box-shadow: 2px 2px 2px black;
+  }
+  #sidebar li:hover {
+    transition: box-shadow 1s;
+    box-shadow: 2px 2px 6px black;
+  }
+  #primary {
+    width: 100%;
+  }
+}
