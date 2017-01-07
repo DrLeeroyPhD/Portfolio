@@ -44,7 +44,7 @@ for (i=0; i< btn.length; i++) {
       
         // BASIC
         else if(disp === "basic"){
-            $('.inner-content').html("<div id='carousel'><ul><li><img src='img/basic1.png'></li><li><img src='img/basic2.png'></li><li><img src='img/basic3.png'></li></ul></div><p>My wife is an expert in Star Wars' Galactic basic, I, however, can't write a lick of it. Find yourself in a similar predicament, but want to write something sweet in the language of love? Then this translator is for you, it takes plain English and translates it into the Galactic Basic language. You'll sweep your significant other off of their feet!</p><a href='http://www.sweetwebsitebro.com/Mondrian/' target='_blank'><button>Check it Out!</button></a>")
+            $('.inner-content').html("<div id='carousel'><ul><li><img src='img/basic1.png'></li><li><img src='img/basic2.png'></li><li><img src='img/basic3.png'></li></ul></div><p>My wife is an expert in Star Wars' Galactic basic, I, however, can't write a lick of it. Find yourself in a similar predicament, but want to write something sweet in the language of love? Then this translator is for you, it takes plain English and translates it into the Galactic Basic language. You'll sweep your significant other off of their feet!</p><a href='http://www.sweetwebsitebro.com/Basic/' target='_blank'><button>Check it Out!</button></a>")
         }
       
       
