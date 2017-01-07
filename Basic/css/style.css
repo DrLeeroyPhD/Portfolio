@@ -1,0 +1,69 @@
+body{
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat;
+}
+
+
+.mainContain{
+  width: 50%;
+  margin: 0 auto;
+}
+
+textarea{
+  height: 130px;
+  width: 380px;
+  resize: none;
+  display: block;
+  margin: 5px auto;
+  box-shadow: 0 0 8px #fff;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: .85em;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+  margin-top: -15px;
+  margin-bottom: 30px;
+  font-family: 'Orbitron', sans-serif;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#basic{
+  font-family: 'basic';
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+  font-family: 'jedi';
+  text-shadow: 3px 3px #555;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: #fff;
+  text-shadow: 3px 3px #555;
+  font-family: 'Orbitron', sans-serif;
+}
+
+p{
+  color: #fff;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+@font-face{
+  font-family: 'jedi';
+  src: url('../fonts/starjedi.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'basic';
+  src: url('../fonts/galbasic.ttf') format('truetype');
+}
