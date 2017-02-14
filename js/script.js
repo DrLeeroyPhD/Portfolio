@@ -52,6 +52,11 @@ for (i=0; i< btn.length; i++) {
         else if(disp === "random"){
             $('.inner-content').html("<div id='carousel'><ul><li><img src='img/random1.png'></li><li><img src='img/random2.png'></li><li><img src='img/random3.png'></li></ul></div><p>The fastest way to learn code is to dive deep and make something with it, right? I'd spent plenty of time watching videos and taking quizzes, but had never truly built anything with Javascript. This project was inspired by the desire to actually make something out of Javascript - and without the help of jQuery!</p><a href='http://www.sweetwebsitebro.com/random' target='_blank'><button>Check it Out!</button></a>")
         }
+      
+        //MATERIAL FLOW
+        else if(disp === "material"){
+            $('.inner-content').html("<div id='carousel'><ul><li><img src='img/material1.png'></li><li><img src='img/material2.png'></li><li><img src='img/material3.png'></li></ul></div><p>This was my first experience working with a group of people on a singular site where I was pushed to learn and learn fast, which was a healthy experience for me. This opportunity allowed me to learn more about databases, calling in information, and using React in an ASP.NET environment.</p><a href='http://www.materialflow.com/' target='_blank'><button>Check it Out!</button></a>")
+        }
         
         // ELSE
         else{
