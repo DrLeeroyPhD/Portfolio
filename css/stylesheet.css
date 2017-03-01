@@ -277,10 +277,20 @@ nav li:focus {
     flex-wrap: wrap;
     background-color: #1e1e21;
     padding: 10px;
-    transition: filter .3s;
+    transition:box-shadow .3s, background-color .3s;
+}
+
+#contactIc a img {
+    border-radius: 50%;
+    box-shadow: 0 0 8px white;
+    width: 155px;
+    background-color: #444;
 }
 
 #contactIc a img:hover {
-    filter: invert(100%) blur(1.5px);
-    transition: filter .3s;
+    box-shadow: 0 4px 15px white;
+    background-color: #eee;
+    transition:box-shadow .3s, background-color .3s;
 }
+
+
