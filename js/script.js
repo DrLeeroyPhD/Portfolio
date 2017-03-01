@@ -57,6 +57,11 @@ for (i=0; i< btn.length; i++) {
         else if(disp === "material"){
             $('.inner-content').html("<div id='carousel'><ul><li><img src='img/material1.png'></li><li><img src='img/material2.png'></li><li><img src='img/material3.png'></li></ul></div><p>This was my first experience working with a group of people on a singular site where I was pushed to learn and learn fast, which was a healthy experience for me. This opportunity allowed me to learn more about databases, calling in information, and using React in an ASP.NET environment.</p><a href='http://www.materialflow.com/' target='_blank'><button>Check it Out!</button></a>")
         }
+      
+        // Pong
+        else if(disp === "pong"){
+            $('.inner-content').html("<div id='carousel'><ul><li><img src='img/pong1.png'></li><li><img src='img/pong2.png'></li><li><img src='img/pong3.png'></li></ul></div><p>Lets be honest, the HTML5 Canvas can be complex. In attempt to demystify it as well as to further challenge myself in Javascript, I figured, why not recreate one of the most iconic Atari games to exist? This project truly humbled me in my programming abilities and taught me so much more than I ever expected.</p><a href='http://www.sweetwebsitebro.com/pong' target='_blank'><button>Check it Out!</button></a>")
+        }
         
         // ELSE
         else{
