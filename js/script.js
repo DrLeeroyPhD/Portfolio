@@ -62,6 +62,11 @@ for (i=0; i< btn.length; i++) {
         else if(disp === "pong"){
             $('.inner-content').html("<div id='carousel'><ul><li><img src='img/pong1.png'></li><li><img src='img/pong2.png'></li><li><img src='img/pong3.png'></li></ul></div><p>Lets be honest, the HTML5 Canvas can be complex. In attempt to demystify it as well as to further challenge myself in Javascript, I figured, why not recreate one of the most iconic Atari games to exist? This project truly humbled me in my programming abilities and taught me so much more than I ever expected.</p><a href='http://www.sweetwebsitebro.com/pong' target='_blank'><button>Check it Out!</button></a>")
         }
+      
+      // SweetWebsiteBro
+        else if(disp === "sweet"){
+            $('.inner-content').html("<div id='carousel'><ul><li><img src='img/sweet1.png'></li><li><img src='img/sweet2.png'></li><li><img src='img/sweet3.png'></li></ul></div><p>The website that you're currently visiting. I wanted to push myself when making my portfolio, I didn't want to use any plugins, I wanted to how to build everything myself. I did eventually use jQuery so that a few features would be available to me, but in the end, I hand-coded the modal, the scrolling action with the navigation, and the carousel inside of the modal windows.</p><a href='http://www.sweetwebsitebro.com/' target='_blank'><button>Check it Out!</button></a>")
+        }
         
         // ELSE
         else{
